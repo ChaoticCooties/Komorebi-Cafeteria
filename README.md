@@ -1,4 +1,4 @@
-# Republic Gym
+# Komorebi Cafeteria
 > A material design membership management software
 
 RepublicGym is a membership management software specially developed for a Java assignment. However, the current repository will feature extended features not seen in the assignment. Heavily referenced Keeptwo's Material Design.
