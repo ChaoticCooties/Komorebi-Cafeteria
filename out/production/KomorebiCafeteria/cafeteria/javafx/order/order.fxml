@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="rootPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="cafeteria.javafx.order.OrderController">
+    <children>
+        <AnchorPane id="AnchorPane" fx:id="contentPane" prefHeight="456.0" prefWidth="722.0"
+                    stylesheets="@../../../resources/dark-theme.css">
+            <children>
+                <JFXListView fx:id="orderView" layoutX="36.0" layoutY="75.0" prefHeight="345.0" prefWidth="156.0"/>
+                <JFXTextArea fx:id="orderField" layoutX="245.0" layoutY="76.0" prefHeight="235.0" prefWidth="169.0"/>
+                <Text fill="#b1b1b1" layoutX="77.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+                    <font>
+                        <Font size="29.0"/>
+                    </font>
+                </Text>
+                <Text fill="#b1b1b1" layoutX="305.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cart">
+                    <font>
+                        <Font size="27.0"/>
+                    </font>
+                </Text>
+                <JFXTextField fx:id="cartPrice" layoutX="488.0" layoutY="75.0" promptText="Price"/>
+                <JFXTextField fx:id="cartDetail" layoutX="488.0" layoutY="169.0" promptText="Detail"/>
+                <JFXTextField fx:id="cartTotal" layoutX="239.0" layoutY="384.0" prefHeight="37.0" prefWidth="180.0"
+                              promptText="Total"/>
+                <VBox layoutX="488.0" layoutY="228.0" prefHeight="217.0" prefWidth="180.0" spacing="20.0">
+                    <children>
+                        <JFXButton onAction="#handleAddItemEvent" prefHeight="55.0" prefWidth="180.0" text="Add Item"/>
+                        <JFXButton onAction="#handleResetCartEvent" prefHeight="55.0" prefWidth="180.0"
+                                   text="Reset Cart"/>
+                        <JFXButton onAction="#handleConfirmOrderEvent" prefHeight="55.0" prefWidth="180.0"
+                                   text="Confirm"/>
+                    </children>
+                </VBox>
+                <Text fill="#b1b1b1" layoutX="558.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+                    <font>
+                        <Font size="19.0"/>
+                    </font>
+                </Text>
+                <Line endX="59.79998779296875" layoutX="488.0" layoutY="53.0" startX="6.5999755859375" stroke="WHITE"/>
+                <Line endX="59.79998779296875" layoutX="607.0" layoutY="53.0" startX="6.5999755859375" stroke="WHITE"/>
+                <Text fill="#b1b1b1" layoutX="554.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="Detail">
+                    <font>
+                        <Font size="19.0"/>
+                    </font>
+                </Text>
+                <Line endX="59.79998779296875" layoutX="485.0" layoutY="156.0" startX="6.5999755859375" stroke="WHITE"/>
+                <Line endX="59.79998779296875" layoutX="604.0" layoutY="156.0" startX="6.5999755859375" stroke="WHITE"/>
+                <Text fill="#b1b1b1" layoutX="309.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="Total">
+                    <font>
+                        <Font size="19.0"/>
+                    </font>
+                </Text>
+                <Line endX="59.79998779296875" layoutX="236.0" layoutY="364.0" startX="6.5999755859375" stroke="WHITE"/>
+                <Line endX="59.79998779296875" layoutX="355.0" layoutY="364.0" startX="6.5999755859375" stroke="WHITE"/>
+                <JFXTextArea fx:id="printField" layoutX="255.0" layoutY="86.0" prefHeight="235.0" prefWidth="169.0"/>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

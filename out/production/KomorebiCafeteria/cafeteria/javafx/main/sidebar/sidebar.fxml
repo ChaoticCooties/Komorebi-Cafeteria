@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<!-- stylesheets="@../../../../resources/theme.css" -->
+
+<VBox prefHeight="445.0" prefWidth="154.0" styleClass="toolbar-container" xmlns="http://javafx.com/javafx/8.0.171"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafeteria.javafx.main.sidebar.SidebarController">
+    <children>
+        <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadEditProfile" prefHeight="400.0"
+                   prefWidth="160.0" styleClass="toolbar-button" text="Edit Profile" textAlignment="CENTER">
+            <graphic>
+                <FontAwesomeIconView glyphName="USER" size="25"/>
+            </graphic>
+        </JFXButton>
+        <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadOrder"
+                   prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Order" textAlignment="CENTER">
+            <graphic>
+                <FontAwesomeIconView glyphName="BOOK" size="25"/>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="staffPanel" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadStaffPanel"
+                   prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Staff Panel"
+                   textAlignment="CENTER">
+            <graphic>
+                <FontAwesomeIconView glyphName="GAVEL" size="25" textAlignment="CENTER"/>
+            </graphic>
+        </JFXButton>
+        <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" onAction="#loadSettings"
+                   prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Settings"
+                   textAlignment="CENTER">
+            <graphic>
+                <FontAwesomeIconView glyphName="COG" size="25"/>
+            </graphic>
+        </JFXButton>
+    </children>
+</VBox>

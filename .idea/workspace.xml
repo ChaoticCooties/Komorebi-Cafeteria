@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KomorebiCafeteria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/data/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/data/RecordMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/data/RecordParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/login/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/main/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/main/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/SidebarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/sidebar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/order/order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/profile/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/profile/profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/register/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/register/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/settings/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/settings/settings.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/staff/StaffController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/javafx/staff/staff.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/util/Preferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cafeteria/util/util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/dark-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/data/menu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/data/order.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/data/tempfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/data/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/light-theme.css" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,61 +95,86 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-464489152">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="fxml" value="53" />
-          <entry key="java" value="1659" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1659" />
-          <entry key="XML" value="53" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="3" />
-          <entry key="fxml" value="10" />
-          <entry key="java" value="14" />
-          <entry key="png" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="Image" value="3" />
-          <entry key="JAVA" value="14" />
-          <entry key="XML" value="10" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gym/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/order/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="139">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/order/order.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/profile/ProfileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/register/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-29">
+              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/settings/SettingsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/login/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +183,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Gym/controllers/loginController.java">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/login/login.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="12" column="106" selection-start-line="12" selection-start-column="106" selection-end-line="12" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/data/RecordParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="175" column="40" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,28 +205,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gym/fxml/Login.fxml">
+        <entry file="file://$PROJECT_DIR$/src/cafeteria/data/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="62">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>controller</find>
-      <find>control</find>
+      <find>library.assistant.ui.main.MainController</find>
+      <find>loadbookinfo</find>
+      <find>handlemenu</find>
+      <find>loadbook</find>
+      <find>tab</find>
+      <find>tab-main</find>
+      <find>hamburger</find>
+      <find>&lt;JFXHamburger fx:id=&quot;hamburger&quot; styleClass=&quot;jfx-hamburger-icon&quot; AnchorPane.rightAnchor=&quot;20.0&quot; AnchorPane.topAnchor=&quot;75.0&quot; /&gt;</find>
       <find>login</find>
-      <find>sample</find>
-      <find>main</find>
-      <find>sign</find>
+      <find>drawer</find>
+      <find>editterm</find>
+      <find>loginusername</find>
+      <find>handle</find>
+      <find>handleupdate</find>
+      <find>ha</find>
+      <find>hamb</find>
+      <find>java.util.pref</find>
+      <find>button</find>
+      <find>profile</find>
+      <find>text</find>
+      <find>detail</find>
+      <find>printFie</find>
+      <find>printfield</find>
     </findStrings>
     <dirStrings>
-      <dir>C:\Users\joech\IdeaProjects\JavaFX</dir>
+      <dir>C:\Users\joech\IdeaProjects\KomorebiCafeteria\src\resources\data</dir>
     </dirStrings>
   </component>
   <component name="FindManager">
@@ -156,37 +263,70 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/login/Controller.java" />
-        <option value="$PROJECT_DIR$/src/login/Login.java" />
-        <option value="$PROJECT_DIR$/src/login/logincontroller.java" />
-        <option value="$PROJECT_DIR$/src/login/login.fxml" />
-        <option value="$PROJECT_DIR$/src/login/loginController.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Gym/fxml/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/Gym/Main.java" />
-        <option value="$PROJECT_DIR$/src/Gym/controllers/loginController.java" />
+        <option value="$PROJECT_DIR$/src/data/RecordReader.java" />
+        <option value="$PROJECT_DIR$/src/util/util.java" />
+        <option value="$PROJECT_DIR$/src/library/data/RecordReader.java" />
+        <option value="$PROJECT_DIR$/src/library/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/library/util/util.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/login/loginController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/encryption/Hash.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/toolbar.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/data/RecordReader.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/register/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/settings/staff.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/data/RecordParser.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/util/pref.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/settings/SettingsController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/util/Preferences.java" />
+        <option value="$PROJECT_DIR$/src/resources/test-theme.css" />
+        <option value="$PROJECT_DIR$/config.txt" />
+        <option value="$PROJECT_DIR$/src/resources/theme.css" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/register/register.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/main.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/sidebar.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/profile/profile.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/settings/settings.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/light-theme.css" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/staff/staff.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/dark-theme.css" />
+        <option value="$PROJECT_DIR$/src/resources/data/menu.txt" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/profile/ProfileController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/staff/StaffController.java" />
+        <option value="$PROJECT_DIR$/src/resources/data/order.txt" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/receipt/receipt.fxml" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/receipt/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/receipt/ReceiptController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/SidebarController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/util/util.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/order/order.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/data/user.txt" />
+        <option value="$PROJECT_DIR$/src/cafeteria/data/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/main/MainController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/data/RecordMethods.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/data/User.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/order/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/cafeteria/javafx/login/login.fxml" />
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="165" />
-    <option name="y" value="-30" />
-    <option name="width" value="690" />
-    <option name="height" value="395" />
+    <option name="x" value="-25" />
+    <option name="y" value="-25" />
+    <option name="width" value="3445" />
+    <option name="height" value="1865" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -195,41 +335,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFX" type="462c0819:PsiDirectoryNode" />
+              <item name="KomorebiCafeteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KomorebiCafeteria" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFX" type="462c0819:PsiDirectoryNode" />
+              <item name="KomorebiCafeteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KomorebiCafeteria" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFX" type="462c0819:PsiDirectoryNode" />
+              <item name="KomorebiCafeteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KomorebiCafeteria" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Gym" type="462c0819:PsiDirectoryNode" />
+              <item name="cafeteria" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFX" type="462c0819:PsiDirectoryNode" />
+              <item name="KomorebiCafeteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KomorebiCafeteria" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Gym" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="cafeteria" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KomorebiCafeteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KomorebiCafeteria" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cafeteria" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KomorebiCafeteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -237,22 +388,29 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543417154284" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550347641087" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last.edited.regexp" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.8.5.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cafeteria.javafx.staff" />
+      <recent name="cafeteria.javafx.order" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joech\IdeaProjects\JavaFX\src\Gym\images" />
-      <recent name="C:\Users\joech\IdeaProjects\JavaFX\src\images" />
+      <recent name="C:\Users\joech\IdeaProjects\KomorebiCafeteria\src\cafeteria\javafx\main" />
+      <recent name="C:\Users\joech\IdeaProjects\KomorebiCafeteria\src\cafeteria\javafx\staff" />
+      <recent name="C:\Users\joech\IdeaProjects\KomorebiCafeteria\src\cafeteria\javafx\order" />
+      <recent name="C:\Users\joech\IdeaProjects\KomorebiCafeteria\src\cafeteria\javafx\main\sidebar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -280,32 +438,19 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="login.Login" />
-      <module name="JavaFX" />
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cafeteria.javafx.main.Main" />
+      <module name="KomorebiCafeteria" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Gym.Main" />
-      <module name="JavaFX" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="cafeteria.javafx.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,6 +467,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -330,7 +476,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -341,24 +487,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Login" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Login" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -371,157 +508,435 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1549624743959" duration="5623000" />
+      <workItem from="1549637946591" duration="1689000" />
+      <workItem from="1549690757839" duration="471000" />
+      <workItem from="1549877678601" duration="427000" />
+      <workItem from="1549878222391" duration="657000" />
+      <workItem from="1549916255145" duration="663000" />
+      <workItem from="1549917779869" duration="1334000" />
+      <workItem from="1549942608501" duration="2950000" />
+      <workItem from="1549951203324" duration="73000" />
+      <workItem from="1549963580868" duration="391000" />
+      <workItem from="1550062473804" duration="596000" />
+      <workItem from="1550063796147" duration="11444000" />
+      <workItem from="1550106942546" duration="2516000" />
+      <workItem from="1550122059056" duration="7309000" />
+      <workItem from="1550142553035" duration="6630000" />
+      <workItem from="1550159295074" duration="1602000" />
+      <workItem from="1550161636208" duration="2264000" />
+      <workItem from="1550206748319" duration="15502000" />
+      <workItem from="1550229556486" duration="26685000" />
+      <workItem from="1550285297330" duration="8899000" />
+      <workItem from="1550300362757" duration="20466000" />
+      <workItem from="1550325449520" duration="6192000" />
+      <workItem from="1550331685807" duration="14340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+    <option name="totallyTimeSpent" value="140025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20136778" />
-      <window_info id="Structure" order="1" weight="0.24949698" />
-      <window_info id="Favorites" order="2" weight="0.32997987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17840375" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29016393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37199435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32107496" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3293092" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19832827" />
-      <window_info id="Structure" order="1" weight="0.24949698" />
-      <window_info id="Favorites" order="2" weight="0.32997987" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29016393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3293092" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/images/gymlogo.png" />
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/login/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/out/production/JavaFX/login/Login.class" />
-    <entry file="file://$PROJECT_DIR$/out/production/JavaFX/login/Controller.class" />
-    <entry file="file://$PROJECT_DIR$/out/production/JavaFX/login/login.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/login/Controller.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/test" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/Initializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        <state relative-caret-position="493">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/Login.java" />
-    <entry file="file://$PROJECT_DIR$/src/login/login.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/login/loginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/JavaFX/Gym/Main.class">
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/encryption/Hash.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339" />
+        <state relative-caret-position="519">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gym/images/Logo Transparent.png" />
-    <entry file="file://$PROJECT_DIR$/src/Gym/images/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/event/EventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/util/misc.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="222">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gym/fxml/Login.fxml">
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/settings/StaffController.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/data/tempfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/javafx/css/StyleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="1059" selection-start-line="1059" selection-end-line="1059" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/theme.css" />
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/mainbackup.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gym/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="18" column="207" selection-start-line="18" selection-start-column="207" selection-end-line="18" selection-end-column="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/register/register.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/light-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/staff/staff.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="120" lean-forward="true" selection-start-line="26" selection-start-column="120" selection-end-line="26" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zECC7FEAC9/Purchase.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zECC760648/Purchase.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zECC70CA18/Purchase.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/dark-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/settings/settings.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/util/Preferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gym/controllers/loginController.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/data/menu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/data/order.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/staff/StaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="172" column="19" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/receipt/receipt.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/receipt/ReceiptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="1656" selection-start-line="1656" selection-end-line="1656" />
+          <folding>
+            <element signature="e#66966#66967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2493" selection-start-line="2493" selection-end-line="2493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/util/util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/sidebar.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/data/user.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/sidebar/SidebarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/profile/profile.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/data/RecordMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/data/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/data/RecordParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="175" column="40" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/main/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/order/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/order/order.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/profile/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/register/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/settings/SettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cafeteria/javafx/login/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="106" selection-start-line="12" selection-start-column="106" selection-end-line="12" selection-end-column="106" />
         </state>
       </provider>
     </entry>
@@ -578,7 +993,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JavaFX</last-edited>
+          <last-edited>KomorebiCafeteria</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -590,7 +1005,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>io.github.typhon0:AnimateFX:1.2.0</last-edited>
+          <last-edited>gson-2.8.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

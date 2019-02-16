@@ -1,0 +1,17 @@
+dish,12,detail
+zxc,123,zxc
+Micro carrots,69,123
+sdf,123,asd
+fg,2,sdf
+zxc,2,sdf
+qt,2,sdf
+gj,2,sdf
+sogoo,2,sdf
+eatshit,2,sdf
+no,2,sdf
+u,2,sdf
+l,2,sdf
+m,2,sdf
+a,2,sdf
+o,2,sdf
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+           prefHeight="625.0" prefWidth="1000.0" styleClass="custom-pane" xmlns="http://javafx.com/javafx/8.0.171"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafeteria.javafx.staff.StaffController">
+    <children>
+        <AnchorPane fx:id="rootAnchorPane" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                            AnchorPane.topAnchor="25.0">
+                    <children>
+                        <JFXTabPane fx:id="mainTabPane" layoutY="-27.0" prefHeight="627.0" prefWidth="1000.0"
+                                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-27.0">
+                            <tabs>
+                                <Tab fx:id="addTab" closable="false" styleClass="tab-main" text="Add Menu">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <FontAwesomeIconView glyphName="PLUS_CIRCLE" layoutX="484.0"
+                                                                     layoutY="134.0" size="40"/>
+                                                <JFXTextField fx:id="dishNameHolder" layoutX="360.0" layoutY="201.0"
+                                                              prefHeight="37.0" prefWidth="280.0"
+                                                              promptText="Name of Dish"/>
+                                                <JFXTextField fx:id="dishPriceHolder" layoutX="360.0" layoutY="264.0"
+                                                              prefHeight="37.0" prefWidth="282.0" promptText="Price"/>
+                                                <JFXTextField fx:id="dishDetailHolder" layoutX="358.0" layoutY="329.0"
+                                                              prefHeight="37.0" prefWidth="285.0" promptText="Details"/>
+                                                <FontAwesomeIconView glyphName="PENCIL" layoutX="319.0" layoutY="357.0"
+                                                                     size="25"/>
+                                                <FontAwesomeIconView glyphName="DOLLAR" layoutX="323.0" layoutY="291.0"
+                                                                     size="25"/>
+                                                <FontAwesomeIconView glyphName="BEER" layoutX="318.0" layoutY="228.0"
+                                                                     size="25"/>
+                                                <Text fill="#b2b2b2" layoutX="401.0" layoutY="174.0"
+                                                      strokeType="OUTSIDE" strokeWidth="0.0" text="Add Menu Item"
+                                                      textAlignment="CENTER">
+                                                    <font>
+                                                        <Font size="29.0"/>
+                                                    </font>
+                                                </Text>
+                                                <Line endX="-145.79998779296875" layoutX="614.0" layoutY="120.0"
+                                                      startX="-301.0" stroke="#b1b1b1"/>
+                                                <Line endX="-145.79998779296875" layoutX="833.0" layoutY="120.0"
+                                                      startX="-301.0" stroke="#b1b1b1"/>
+                                                <JFXButton layoutX="359.0" layoutY="387.0"
+                                                           onAction="#handleAddItemAction" prefHeight="51.0"
+                                                           prefWidth="284.0" text="Add"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab fx:id="editTab" closable="false" styleClass="tab-main" text="Edit Menu">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <JFXListView fx:id="menuView" layoutX="707.0" layoutY="70.0"
+                                                             prefHeight="400.0" prefWidth="219.0"
+                                                             style="-fx-background-color: #1b1b1b;"/>
+                                                <Text fill="#b1b1b1" layoutX="365.0" layoutY="134.0"
+                                                      strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Menu">
+                                                    <font>
+                                                        <Font size="28.0"/>
+                                                    </font>
+                                                </Text>
+                                                <FontAwesomeIconView glyphName="PENCIL" layoutX="413.0" layoutY="100.0"
+                                                                     size="30"/>
+                                                <Line endX="212.666748046875" endY="-45.66667175292969" layoutX="338.0"
+                                                      layoutY="137.0" startX="114.0" startY="-45.66667175292969"
+                                                      stroke="WHITE"/>
+                                                <VBox layoutX="213.0" layoutY="168.0" prefHeight="255.0"
+                                                      prefWidth="427.0" spacing="50.0">
+                                                    <children>
+                                                        <JFXTextField fx:id="editDishField" promptText="Dish Name"/>
+                                                        <JFXTextField fx:id="editPriceField" promptText="Price"/>
+                                                        <JFXTextField fx:id="editDetailsField" promptText="Details"/>
+                                                    </children>
+                                                </VBox>
+                                                <JFXButton layoutX="244.0" layoutY="408.0"
+                                                           onAction="#handleUpdateMenuEvent" prefHeight="59.0"
+                                                           prefWidth="161.0" text="Update"/>
+                                                <JFXButton layoutX="461.0" layoutY="407.0"
+                                                           onAction="#handleDeleteMenuEvent" prefHeight="59.0"
+                                                           prefWidth="167.0" text="Delete"/>
+                                                <Line endX="230.0" endY="-45.66667175292969" layoutX="170.0"
+                                                      layoutY="137.0" startX="132.6666259765625"
+                                                      startY="-45.66667175292969" stroke="WHITE"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab fx:id="deleteTab" closable="false" styleClass="tab-main" text="Create Customer">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <JFXTextField fx:id="addUsernameHolder" layoutX="330.0" layoutY="180.0"
+                                                              prefHeight="37.0" prefWidth="341.0"
+                                                              promptText="Username"/>
+                                                <JFXTextField fx:id="addNameHolder" layoutX="331.0" layoutY="255.0"
+                                                              prefHeight="37.0" prefWidth="340.0" promptText="Name"/>
+                                                <JFXPasswordField fx:id="addPasswordHolder" layoutX="332.0"
+                                                                  layoutY="324.0" prefHeight="37.0" prefWidth="340.0"
+                                                                  promptText="Password"/>
+                                                <JFXPasswordField fx:id="addConfirmPasswordHolder" layoutX="330.0"
+                                                                  layoutY="397.0" prefHeight="37.0" prefWidth="342.0"
+                                                                  promptText="Confirm Password"/>
+                                                <Line endX="25.0" endY="1.0" layoutX="447.0" layoutY="128.0"
+                                                      startX="-55.0" startY="1.0" stroke="#b1b1b1"/>
+                                                <Text fill="#b1b1b1" layoutX="437.0" layoutY="168.0"
+                                                      strokeType="OUTSIDE" strokeWidth="0.0" text="Create Customer">
+                                                    <font>
+                                                        <Font size="17.0"/>
+                                                    </font>
+                                                </Text>
+                                                <FontAwesomeIconView glyphName="USER" layoutX="480.0" layoutY="139.0"
+                                                                     size="50"/>
+                                                <Line endX="25.0" endY="1.0" layoutX="582.0" layoutY="128.0"
+                                                      startX="-55.0" startY="1.0" stroke="#b1b1b1"/>
+                                                <JFXButton layoutX="427.0" layoutY="457.0"
+                                                           onAction="#handleCreateCustomerEvent" prefHeight="54.0"
+                                                           prefWidth="146.0" style="-fx-border-color: #b1b1b1;"
+                                                           text="Create"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                            </tabs>
+                        </JFXTabPane>
+                    </children>
+                </AnchorPane>
+                <!-- <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuSettings" text="Settings" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuClose" text="Exit" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Add">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuAddBook" text="Add Book" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuAddMember" text="Add Member" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="View">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuViewBook" text="Book List" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuViewMemberList" text="Member List" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleIssuedList" text="Issued Book List" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuFullScreen" text="Full Screen" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Notify">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuOverdueNotification" text="Overdue Notification" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleAboutMenu" text="About" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar> -->
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

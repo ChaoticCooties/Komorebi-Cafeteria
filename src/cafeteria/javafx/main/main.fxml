@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+           prefHeight="625.0" prefWidth="1000.0" styleClass="custom-pane" xmlns="http://javafx.com/javafx/8.0.171"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafeteria.javafx.main.MainController">
+    <children>
+        <JFXDrawer fx:id="drawer" defaultDrawerSize="150.0" direction="RIGHT" resizableOnDrag="true"
+                   resizeContent="true" styleClass="jfx-drawer"/>
+        <AnchorPane fx:id="rootAnchorPane" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <AnchorPane prefWidth="219.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+                    <children>
+                        <JFXHamburger fx:id="hamburger" layoutX="10.0" layoutY="80.0" styleClass="jfx-hamburger-icon"/>
+                        <ImageView layoutX="440.0" layoutY="180.0">
+                            <image>
+                                <Image url="@../../../resources/icon.png"/>
+                            </image>
+                        </ImageView>
+                        <Text fill="#b1b1b1" layoutX="425.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Komorebi">
+                            <font>
+                                <Font size="35.0"/>
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+                <!-- <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuSettings" text="Settings" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuClose" text="Exit" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Add">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuAddBook" text="Add Book" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuAddMember" text="Add Member" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="View">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuViewBook" text="Book List" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuViewMemberList" text="Member List" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleIssuedList" text="Issued Book List" />
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuFullScreen" text="Full Screen" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Notify">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleMenuOverdueNotification" text="Overdue Notification" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#handleAboutMenu" text="About" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar> -->
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

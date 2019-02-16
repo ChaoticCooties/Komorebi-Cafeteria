@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafeteria.javafx.settings.SettingsController">
+    <children>
+        <JFXComboBox fx:id="themeHolder" layoutX="198.0" layoutY="168.0" prefHeight="32.0" prefWidth="206.0"
+                     promptText="Choose Theme"/>
+        <FontAwesomeIconView glyphName="COG" layoutX="283.0" layoutY="80.0" size="40"/>
+        <Line endX="100.0" layoutX="171.0" layoutY="66.0" startX="-14.0" stroke="WHITE"/>
+        <Line endX="100.0" layoutX="346.0" layoutY="66.0" startX="-14.0" stroke="WHITE"/>
+        <Text fill="#b1b1b1" layoutX="267.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings">
+            <font>
+                <Font size="19.0"/>
+            </font>
+        </Text>
+        <JFXButton layoutX="328.0" layoutY="212.0" onAction="#handleApplyThemeEvent" prefHeight="1.0" prefWidth="76.0"
+                   text="Apply"/>
+    </children>
+</AnchorPane>

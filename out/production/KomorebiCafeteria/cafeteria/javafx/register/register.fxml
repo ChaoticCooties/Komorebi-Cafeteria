@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafeteria.javafx.register.RegisterController">
+    <children>
+        <JFXTextField fx:id="regUsername" labelFloat="true" layoutX="70.0" layoutY="161.0" prefHeight="37.0"
+                      prefWidth="214.0" promptText="Username">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </JFXTextField>
+        <JFXPasswordField fx:id="regPassword" labelFloat="true" layoutX="70.0" layoutY="227.0" prefHeight="37.0"
+                          prefWidth="214.0" promptText="Password">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </JFXPasswordField>
+        <FontAwesomeIconView glyphName="EDIT" layoutX="303.0" layoutY="117.0" size="55"/>
+        <FontAwesomeIconView glyphName="USER" layoutX="319.0" layoutY="187.0" size="25"/>
+        <FontAwesomeIconView glyphName="KEY" layoutX="316.0" layoutY="261.0" size="25"/>
+        <JFXButton layoutX="279.0" layoutY="344.0" onAction="#handleCreateUserAction" prefHeight="47.0" prefWidth="99.0"
+                   text="Register"/>
+        <Text fill="#b1b1b1" layoutX="290.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Text>
+        <JFXPasswordField fx:id="regCfmPassword" labelFloat="true" layoutX="379.0" layoutY="227.0" prefHeight="37.0"
+                          prefWidth="214.0" promptText="Confirm Password">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </JFXPasswordField>
+        <JFXTextField fx:id="regName" labelFloat="true" layoutX="379.0" layoutY="161.0" prefHeight="37.0"
+                      prefWidth="214.0" promptText="Name">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </JFXTextField>
+    </children>
+</AnchorPane>
