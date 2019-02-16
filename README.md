@@ -1,7 +1,7 @@
 # Komorebi Cafeteria
-> A material design membership management software
+> A material design  management software
 
-RepublicGym is a membership management software specially developed for a Java assignment. However, the current repository will feature extended features not seen in the assignment. Heavily referenced Keeptwo's Material Design.
+Komorebi Cafeteria is a .txt parsed management system for food ordering. 
 
 ## How to Install
 Clone the repo and compile it. No supports on installation will be given since the program is pretty simple and straightforward.
@@ -9,6 +9,8 @@ Clone the repo and compile it. No supports on installation will be given since t
 ## Release History
 * 0.0.1
     * Work in progress
+*1.0
+    *Finalized and ready to be submitted as assignment.
 
 ## Meta
 
